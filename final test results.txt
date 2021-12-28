@@ -1,0 +1,463 @@
+-------------------------------------------------------------------LinearSVC unigram-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.790
+
+
+Baseline Training Accuracy: 0.751
+Baseline Testing Accuracy: 0.561
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.813
+
+
+C:\Users\saeed\anaconda3\lib\site-packages\sklearn\svm\_base.py:985: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.79
+              precision    recall  f1-score   support
+
+    negative       0.81      0.76      0.78       138
+    positive       0.75      0.80      0.77       124
+
+    accuracy                           0.78       262
+   macro avg       0.78      0.78      0.78       262
+weighted avg       0.78      0.78      0.78       262
+
+[[105  33]
+ [ 25  99]]
+C:\Users\saeed\anaconda3\lib\site-packages\sklearn\svm\_base.py:985: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+              precision    recall  f1-score   support
+
+    negative       0.84      0.79      0.81       136
+    positive       0.79      0.84      0.81       126
+
+    accuracy                           0.81       262
+   macro avg       0.81      0.81      0.81       262
+weighted avg       0.81      0.81      0.81       262
+
+[[107  29]
+ [ 20 106]]
+              precision    recall  f1-score   support
+
+    negative       0.84      0.87      0.85       141
+    positive       0.84      0.81      0.82       121
+
+    accuracy                           0.84       262
+   macro avg       0.84      0.84      0.84       262
+weighted avg       0.84      0.84      0.84       262
+
+[[122  19]
+ [ 23  98]]
+C:\Users\saeed\anaconda3\lib\site-packages\sklearn\svm\_base.py:985: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+              precision    recall  f1-score   support
+
+    negative       0.83      0.76      0.79       134
+    positive       0.77      0.84      0.80       128
+
+    accuracy                           0.80       262
+   macro avg       0.80      0.80      0.80       262
+weighted avg       0.80      0.80      0.80       262
+
+[[102  32]
+ [ 21 107]]
+              precision    recall  f1-score   support
+
+    negative       0.84      0.82      0.83       125
+    positive       0.84      0.86      0.85       137
+
+    accuracy                           0.84       262
+   macro avg       0.84      0.84      0.84       262
+weighted avg       0.84      0.84      0.84       262
+
+[[103  22]
+ [ 19 118]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.7786259541984732, 0.8129770992366412, 0.8396946564885496, 0.7977099236641222, 0.8435114503816794]
+Average Training Score: 1.0
+Average K-Fold Score: 0.8145038167938932
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------RandomForestClassifier unigram--------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.790
+
+
+Baseline Training Accuracy: 0.741
+Baseline Testing Accuracy: 0.565
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.813
+
+
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.83
+              precision    recall  f1-score   support
+
+    positive       0.81      0.85      0.83       131
+    negative       0.85      0.79      0.82       131
+
+    accuracy                           0.82       262
+   macro avg       0.83      0.82      0.82       262
+weighted avg       0.83      0.82      0.82       262
+
+[[112  19]
+ [ 27 104]]
+              precision    recall  f1-score   support
+
+    positive       0.76      0.81      0.78       121
+    negative       0.83      0.78      0.80       141
+
+    accuracy                           0.79       262
+   macro avg       0.79      0.80      0.79       262
+weighted avg       0.80      0.79      0.79       262
+
+[[ 98  23]
+ [ 31 110]]
+              precision    recall  f1-score   support
+
+    positive       0.79      0.79      0.79       131
+    negative       0.79      0.79      0.79       131
+
+    accuracy                           0.79       262
+   macro avg       0.79      0.79      0.79       262
+weighted avg       0.79      0.79      0.79       262
+
+[[104  27]
+ [ 28 103]]
+              precision    recall  f1-score   support
+
+    positive       0.76      0.82      0.79       131
+    negative       0.80      0.74      0.77       131
+
+    accuracy                           0.78       262
+   macro avg       0.78      0.78      0.78       262
+weighted avg       0.78      0.78      0.78       262
+
+[[107  24]
+ [ 34  97]]
+              precision    recall  f1-score   support
+
+    positive       0.78      0.81      0.80       126
+    negative       0.82      0.79      0.81       136
+
+    accuracy                           0.80       262
+   macro avg       0.80      0.80      0.80       262
+weighted avg       0.80      0.80      0.80       262
+
+[[102  24]
+ [ 28 108]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.8244274809160306, 0.7938931297709924, 0.7900763358778626, 0.7786259541984732, 0.8015267175572519]
+Average Training Score: 1.0
+Average K-Fold Score: 0.7977099236641221
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------KNeighborsClassifier unigram------------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.798
+
+
+Baseline Training Accuracy: 0.740
+Baseline Testing Accuracy: 0.595
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.828
+
+
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.61
+              precision    recall  f1-score   support
+
+    positive       0.57      0.61      0.59       135
+    negative       0.55      0.51      0.53       127
+
+    accuracy                           0.56       262
+   macro avg       0.56      0.56      0.56       262
+weighted avg       0.56      0.56      0.56       262
+
+[[82 53]
+ [62 65]]
+              precision    recall  f1-score   support
+
+    positive       0.58      0.70      0.64       131
+    negative       0.62      0.50      0.55       131
+
+    accuracy                           0.60       262
+   macro avg       0.60      0.60      0.59       262
+weighted avg       0.60      0.60      0.59       262
+
+[[92 39]
+ [66 65]]
+              precision    recall  f1-score   support
+
+    positive       0.54      0.67      0.60       129
+    negative       0.59      0.45      0.51       133
+
+    accuracy                           0.56       262
+   macro avg       0.57      0.56      0.56       262
+weighted avg       0.57      0.56      0.56       262
+
+[[87 42]
+ [73 60]]
+              precision    recall  f1-score   support
+
+    positive       0.48      0.58      0.53       123
+    negative       0.55      0.45      0.50       139
+
+    accuracy                           0.51       262
+   macro avg       0.52      0.52      0.51       262
+weighted avg       0.52      0.51      0.51       262
+
+[[71 52]
+ [76 63]]
+              precision    recall  f1-score   support
+
+    positive       0.53      0.60      0.56       134
+    negative       0.52      0.45      0.48       128
+
+    accuracy                           0.53       262
+   macro avg       0.53      0.53      0.52       262
+weighted avg       0.53      0.53      0.52       262
+
+[[80 54]
+ [70 58]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.5610687022900763, 0.5992366412213741, 0.5610687022900763, 0.5114503816793893, 0.5267175572519084]
+Average Training Score: 1.0
+Average K-Fold Score: 0.5519083969465649
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------LinearSVC bigram-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.840
+
+
+Baseline Training Accuracy: 0.734
+Baseline Testing Accuracy: 0.611
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.832
+
+
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.84
+              precision    recall  f1-score   support
+
+    positive       0.81      0.85      0.83       130
+    negative       0.85      0.80      0.82       132
+
+    accuracy                           0.83       262
+   macro avg       0.83      0.83      0.83       262
+weighted avg       0.83      0.83      0.83       262
+
+[[111  19]
+ [ 26 106]]
+              precision    recall  f1-score   support
+
+    positive       0.79      0.85      0.82       113
+    negative       0.88      0.83      0.86       149
+
+    accuracy                           0.84       262
+   macro avg       0.84      0.84      0.84       262
+weighted avg       0.84      0.84      0.84       262
+
+[[ 96  17]
+ [ 25 124]]
+              precision    recall  f1-score   support
+
+    positive       0.77      0.78      0.77       123
+    negative       0.80      0.79      0.80       139
+
+    accuracy                           0.79       262
+   macro avg       0.79      0.79      0.79       262
+weighted avg       0.79      0.79      0.79       262
+
+[[ 96  27]
+ [ 29 110]]
+              precision    recall  f1-score   support
+
+    positive       0.91      0.83      0.87       149
+    negative       0.80      0.88      0.84       113
+
+    accuracy                           0.85       262
+   macro avg       0.85      0.86      0.85       262
+weighted avg       0.86      0.85      0.86       262
+
+[[124  25]
+ [ 13 100]]
+C:\Users\saeed\anaconda3\lib\site-packages\sklearn\svm\_base.py:985: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+              precision    recall  f1-score   support
+
+    positive       0.81      0.83      0.82       133
+    negative       0.82      0.81      0.81       129
+
+    accuracy                           0.82       262
+   macro avg       0.82      0.82      0.82       262
+weighted avg       0.82      0.82      0.82       262
+
+[[110  23]
+ [ 25 104]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.8282442748091603, 0.8396946564885496, 0.7862595419847328, 0.8549618320610687, 0.816793893129771]
+Average Training Score: 1.0
+Average K-Fold Score: 0.8251908396946565
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------RandomForestClassifier bigram-----------------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.809
+
+
+Baseline Training Accuracy: 0.732
+Baseline Testing Accuracy: 0.607
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.798
+
+
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.82
+              precision    recall  f1-score   support
+
+    positive       0.76      0.87      0.81       132
+    negative       0.85      0.72      0.78       130
+
+    accuracy                           0.80       262
+   macro avg       0.80      0.80      0.80       262
+weighted avg       0.80      0.80      0.80       262
+
+[[115  17]
+ [ 36  94]]
+              precision    recall  f1-score   support
+
+    positive       0.71      0.82      0.76       125
+    negative       0.81      0.69      0.75       137
+
+    accuracy                           0.76       262
+   macro avg       0.76      0.76      0.76       262
+weighted avg       0.76      0.76      0.76       262
+
+[[103  22]
+ [ 42  95]]
+              precision    recall  f1-score   support
+
+    positive       0.71      0.83      0.76       123
+    negative       0.82      0.70      0.75       139
+
+    accuracy                           0.76       262
+   macro avg       0.77      0.76      0.76       262
+weighted avg       0.77      0.76      0.76       262
+
+[[102  21]
+ [ 42  97]]
+              precision    recall  f1-score   support
+
+    positive       0.79      0.73      0.76       133
+    negative       0.74      0.80      0.77       129
+
+    accuracy                           0.76       262
+   macro avg       0.76      0.76      0.76       262
+weighted avg       0.77      0.76      0.76       262
+
+[[ 97  36]
+ [ 26 103]]
+              precision    recall  f1-score   support
+
+    positive       0.74      0.84      0.79       120
+    negative       0.85      0.75      0.79       142
+
+    accuracy                           0.79       262
+   macro avg       0.79      0.79      0.79       262
+weighted avg       0.80      0.79      0.79       262
+
+[[101  19]
+ [ 36 106]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.7977099236641222, 0.7557251908396947, 0.7595419847328244, 0.7633587786259542, 0.7900763358778626]
+Average Training Score: 1.0
+Average K-Fold Score: 0.7732824427480915
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------KNeighborsClassifier bigram-------------------------------------------------------------------------------------------------------------------------------------------------
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.844
+
+
+Baseline Training Accuracy: 0.732
+Baseline Testing Accuracy: 0.569
+
+
+Baseline Training Accuracy: 1.000
+Baseline Testing Accuracy: 0.828
+
+
+Current Model Training Accuracy: 1.00
+Current Model Testing Accuracy: 0.60
+              precision    recall  f1-score   support
+
+    positive       0.50      0.66      0.57       128
+    negative       0.53      0.36      0.43       134
+
+    accuracy                           0.51       262
+   macro avg       0.51      0.51      0.50       262
+weighted avg       0.51      0.51      0.50       262
+
+[[85 43]
+ [86 48]]
+              precision    recall  f1-score   support
+
+    positive       0.56      0.70      0.62       135
+    negative       0.56      0.41      0.47       127
+
+    accuracy                           0.56       262
+   macro avg       0.56      0.55      0.55       262
+weighted avg       0.56      0.56      0.55       262
+
+[[94 41]
+ [75 52]]
+              precision    recall  f1-score   support
+
+    positive       0.53      0.68      0.59       124
+    negative       0.61      0.45      0.52       138
+
+    accuracy                           0.56       262
+   macro avg       0.57      0.56      0.55       262
+weighted avg       0.57      0.56      0.55       262
+
+[[84 40]
+ [76 62]]
+              precision    recall  f1-score   support
+
+    positive       0.55      0.59      0.57       135
+    negative       0.53      0.49      0.51       127
+
+    accuracy                           0.54       262
+   macro avg       0.54      0.54      0.54       262
+weighted avg       0.54      0.54      0.54       262
+
+[[79 56]
+ [65 62]]
+              precision    recall  f1-score   support
+
+    positive       0.51      0.60      0.55       124
+    negative       0.57      0.48      0.52       138
+
+    accuracy                           0.54       262
+   macro avg       0.54      0.54      0.54       262
+weighted avg       0.54      0.54      0.54       262
+
+[[75 49]
+ [72 66]]
+Training Scores:  [1.0, 1.0, 1.0, 1.0, 1.0]
+Testing Scores:  [0.5076335877862596, 0.5572519083969466, 0.5572519083969466, 0.5381679389312977, 0.5381679389312977]
+Average Training Score: 1.0
+Average K-Fold Score: 0.5396946564885496
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
